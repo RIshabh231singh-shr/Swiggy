@@ -4,8 +4,4 @@ import "./index.css";
 import App from "./App.jsx";
 import Header from "./components/header.jsx";
 
-createRoot(document.getElementById("root")).render(
-
-<Header></Header>
-
-);
+createRoot(document.getElementById("root")).render(<App></App>);
